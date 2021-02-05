@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pytorch-test"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^1.7.1"
+pandas = "^1.2.1"
+jupyterlab = "^3.0.7"
+pytorch-lightning = "^1.1.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
