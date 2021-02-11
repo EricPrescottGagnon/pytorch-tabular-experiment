@@ -9,3 +9,5 @@ train.csv
 lightning_logs/
 
 pytorch-tabular-experiment/submission.csv
+
+pytorch-tabular-experiment/catboost_info/
